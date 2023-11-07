@@ -63,6 +63,18 @@
 //   });
 // });
 
+/*
+5) Даны картинки.
+ Привяжите к каждой картинке событие,
+ чтобы по клику на картинку в console.log выводился ее src.
+*/
+// const images = document.querySelectorAll('img');
+// images.forEach(item => {
+//   item.addEventListener('click', (e) => {
+//     console.log(e.target.src);
+//   });
+// });
+
 
 
 

@@ -1,5 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+}
 #redBlock {
   width: 150px;
   height: 150px;
   border: 1px solid blue;
+}
+#block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  height: 300px;
+  border: 1px solid beige;
+  background-color: peachpuff;
+}
+.img {
+  height: 200px;
+  width: 200px;
+  border-radius: 18px;
 }
