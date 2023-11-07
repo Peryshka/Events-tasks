@@ -22,6 +22,18 @@
 //     document.body.append(text);
 // });
 
+/*
+2) Дан элемент. Сделайте так,
+ чтобы по клику на него он красился в красный цвет,
+  но только если в момент клика нажата клавиша Ctrl
+*/
+// const redBlock = document.getElementById('redBlock');
+// redBlock.addEventListener('click',function(e) {
+//   if(e.ctrlKey) {
+//     redBlock.style.backgroundColor='red';
+//   }
+// });
+
 
 
 
