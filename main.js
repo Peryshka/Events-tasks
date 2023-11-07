@@ -75,6 +75,20 @@
 //   });
 // });
 
+/*
+6) Даны ссылки с заполненным href. Например <a href="https://google.com">Сайт гугл</a>.
+   Привяжите всем ссылкам событие - по наведению на ссылку в конец ее текста дописывается ее href
+   в круглых скобках.
+*/
+// const links = document.querySelectorAll('a');
+// links.forEach(link => {
+//   link.addEventListener('mouseover',function(e) {
+//     e.preventDefault();
+//     const href = e.target.href;
+//     link.textContent += `(${href})`;
+//   })
+// });
+
 
 
 

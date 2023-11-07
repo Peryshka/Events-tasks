@@ -1,7 +1,3 @@
-body {
-  display: flex;
-  justify-content: center;
-}
 #redBlock {
   width: 150px;
   height: 150px;
@@ -21,3 +17,12 @@ body {
   width: 200px;
   border-radius: 18px;
 }
+#block2 {
+  display: flex;
+  flex-direction: column;
+}
+#block2 a {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
