@@ -50,6 +50,19 @@
 //   }
 // });
 
+/*
+4)  Даны абзацы с числами. То есть, несколько подобных элементов <p>1</p>.
+ По нажатию на абзац в нем должен появится квадрат числа, которое он содержит.
+*/
+// const elements = document.querySelectorAll('.element');
+// elements.forEach(elem => {
+//   elem.addEventListener('click', function() {
+//     let content = elem.textContent;
+//     const res = content * content;
+//     elem.textContent = res;
+//   });
+// });
+
 
 
 
