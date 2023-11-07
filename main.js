@@ -34,6 +34,22 @@
 //   }
 // });
 
+/*
+3) Дан элемент. Сделайте так, чтобы при клике на него и нажатой клавише Ctrl -
+ в его текст записывалось '1',
+ при нажатой клавише Alt - '2', а при нажатой клавише Shift - '3'
+*/
+// const elem = document.getElementById('elem');
+// elem.addEventListener('click', (e) => {
+//   if(e.ctrlKey) {
+//     elem.textContent = '1';
+//   } else if(e.altKey) {
+//     elem.textContent = '2';
+//   } else if(e.shiftKey) {
+//     elem.textContent = '3';
+//   }
+// });
+
 
 
 
