@@ -29,7 +29,7 @@
 */
 // const redBlock = document.getElementById('redBlock');
 // redBlock.addEventListener('click',function(e) {
-//   if(e.ctrlKey) {
+//   if(e.ctrlKey || e.metaKey) {
 //     redBlock.style.backgroundColor='red';
 //   }
 // });
@@ -41,7 +41,7 @@
 */
 // const elem = document.getElementById('elem');
 // elem.addEventListener('click', (e) => {
-//   if(e.ctrlKey) {
+//   if(e.ctrlKey || e.metaKey) {
 //     elem.textContent = '1';
 //   } else if(e.altKey) {
 //     elem.textContent = '2';
